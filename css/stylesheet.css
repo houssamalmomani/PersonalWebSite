@@ -24,19 +24,13 @@ h3{
 
 .navbar-brand p {
   font-family: 'Blinker';
-  font-weight: 300;
+  font-weight: 400;
   font-size: 20px;
   margin-bottom: 5px;
 }
 
 .navbar-brand span {
   color: #0154bd;
-}
-
-.navbar-brand sub {
-  font-family: 'Sacramento', cursive;
-  font-size: 1.5vw;
-  color: #b1b0b6;
 }
 
 .navbar a {

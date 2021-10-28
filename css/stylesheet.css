@@ -1,0 +1,82 @@
+/******************************TAG SELECTORS***********************************/
+body {
+  margin: 0;
+  font-family: 'Montserrat';
+}
+h1{
+  font-family:'Montserrat';
+  font-size:2vw;
+  font-weight: bolder;
+  text-decoration: underline;
+  color:#001d70f7;
+  text-align: left;
+
+}
+h3{
+  font-size: 2vw;
+}
+
+/*****************************CLASS SELECTORS**********************************/
+/* Navigation bar */
+.navbar {
+  padding: 0;
+}
+
+.navbar-brand p {
+  font-family: 'Blinker';
+  font-weight: 300;
+  font-size: 3vw;
+  margin-bottom: 3px;
+}
+
+.navbar-brand span {
+  color: #001d70f7;
+}
+
+.navbar-brand sub {
+  font-family: 'Sacramento', cursive;
+  font-size: 1.5vw;
+  color: #b1b0b6;
+}
+
+.navbar a {
+  font-family: 'Blinker';
+  font-weight: 300;
+  font-size: 1.35vw;
+}
+.white-container{
+  text-align:center;
+  margin-top: 300px;
+  margin-bottom: 300px;
+
+}
+
+.blue-container{
+  color:#FFF;
+  text-align:center;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  background-color:#001d70f7;
+/* #212529 */
+  /* #022466 */
+  /* #063274 */
+}
+.bottom-container{
+  color:#FFF;
+  text-align:center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color:#001d70f7;
+
+  font-size: 15px;
+}
+.footer-link{
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 1rem;
+}
+.bottom-container p{
+  padding-top: 3rem;
+}
+
+/**********************************ID SELECTORS********************************/

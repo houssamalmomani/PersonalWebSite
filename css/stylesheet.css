@@ -25,8 +25,8 @@ h3{
 .navbar-brand p {
   font-family: 'Blinker';
   font-weight: 300;
-  font-size: 3vw;
-  margin-bottom: 3px;
+  font-size: 20px;
+  margin-bottom: 5px;
 }
 
 .navbar-brand span {
@@ -42,7 +42,7 @@ h3{
 .navbar a {
   font-family: 'Blinker';
   font-weight: 300;
-  font-size: 1.35vw;
+  font-size: 15px;
 }
 .white-container{
   text-align:center;

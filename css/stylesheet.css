@@ -62,8 +62,13 @@ h1 {
 .half-blue span {
   color: #0154bd;
 }
-
-.white-container {
+.white-container-1 {
+  line-height: 3;
+  padding: 7% 15%;
+  background-color: #212529;
+  color: #FFF;
+}
+.white-container-2 {
   line-height: 3;
   padding: 7% 15%;
 }

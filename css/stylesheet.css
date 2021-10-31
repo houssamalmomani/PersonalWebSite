@@ -3,17 +3,14 @@ body {
   margin: 0;
   font-family: 'Montserrat';
 }
-h1{
-  font-family:'Montserrat';
-  font-size:2vw;
+
+h1 {
+  font-family: 'Montserrat';
+  font-size: 2.5vw;
   font-weight: bolder;
   text-decoration: underline;
-  color:#001d70f7;
-  text-align: left;
-
-}
-h3{
-  font-size: 2vw;
+  color: #0154bd;
+  margin-bottom: 2rem;
 }
 
 /*****************************CLASS SELECTORS**********************************/
@@ -30,7 +27,7 @@ h3{
 }
 
 .navbar-brand span {
-  color: #0a58ca;
+  color: #0154bd;
 }
 
 .navbar a {
@@ -38,39 +35,72 @@ h3{
   font-weight: 300;
   font-size: 15px;
 }
-.white-container{
-  text-align:center;
-  margin-top: 300px;
-  margin-bottom: 300px;
 
+.personal-image {
+  margin-left: 20%;
+  position: absolute;
+  bottom: 100;
 }
 
-.blue-container{
-  color:#FFF;
-  text-align:center;
-  padding-top: 250px;
-  padding-bottom: 250px;
-  background-color:#0a58ca;
-/* #212529 */
+.gray-container-1 {
+  color: #FFF;
+  text-align: center;
+  padding: 5% 15%;
+  background-color: #212529;
+  font-family: 'Blinker';
+  /* #212529 */
   /* #022466 */
   /* #063274 */
 }
-.bottom-container{
-  color:#FFF;
-  text-align:center;
+
+.half-blue {
+  font-family: 'Blinker';
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.half-blue span {
+  color: #0154bd;
+}
+
+.white-container {
+  line-height: 3;
+  padding: 7% 15%;
+}
+
+.gray-container-2 {
+  line-height: 3;
+  padding: 7% 15%;
+  background-color: #212529;
+  color: #FFF;
+}
+
+.inB {
+  display: inline-block;
+}
+
+.bottom-container {
+  color: #FFF;
+  text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color:#0a58ca;
-
+  background-color: #0154bd;
   font-size: 15px;
 }
-.footer-link{
-    text-decoration: none;
-    font-size: 20px;
-    padding-left: 1rem;
-}
-.bottom-container p{
+
+.bottom-container p {
   padding-top: 3rem;
 }
 
+.footer-link {
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 1rem;
+  color: #FFF;
+}
+
 /**********************************ID SELECTORS********************************/
+
+#unlist {
+  font-size: 1.5vw;
+}

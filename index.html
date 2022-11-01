@@ -1,141 +1,404 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Houssam Al-momani</title>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Houssam Al-momani</title>
-  <!-- Google font -->
-  <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@200;300;400;800&family=Merriweather&family=Montserrat:wght@700&family=Open+Sans&family=Roboto&family=Sacramento&family=Ubuntu&display=swap" rel="stylesheet">
-  <!-- Bootstrap 5 -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <!-- font awesome -->
-  <script src="https://kit.fontawesome.com/07541e6236.js" crossorigin="anonymous"></script>
-  <!-- CSS stylesheet -->
-  <link rel="stylesheet" href="css/stylesheet.css">
-  <!-- favicon -->
-  <link rel="shortcut icon" href="icondarkblue.ico">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com   " />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=McLaren&family=Montserrat:wght@700&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Blinker:wght@200;300;400;800&family=Merriweather&family=Montserrat:wght@700&family=Open+Sans&family=Roboto&family=Sacramento&family=Ubuntu&display=swap"
+      rel="stylesheet" />
 
-</head>
+    <!-- Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"></script>
 
-<body>
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/07541e6236.js"
+      crossorigin="anonymous"></script>
 
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="css/stylesheet.css" />
 
+    <!-- favicon -->
+    <link rel="shortcut icon" href="icondarkblue.ico" />
+  </head>
+  <body>
+    <section id="home">
+      <div>
+        <img
+          src="images/houssamblue3.jpg"
+          alt="personal image with blue background"
+          width="100%" />
+      </div>
 
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-scroll" id="nav-bar">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <p>
-          <span>H</span>oussam Al<span>-</span>momani
-        </p>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ms-auto" id="navbrMyitems">
-          <li class="nav-item">
-            <a class="nav-link " aria-current="page" href=""><span class="fas fa-home"></span> Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><span class="fas fa-address-card"></span> About</a>
-          </li>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <h1 class="half-blue">
+              <span>H</span>oussam Al<span>-</span>momani
+            </h1>
+          </a>
 
-          <li class="nav-item">
-            <a class="nav-link" href="#"><span class="fas fa-envelope"></span> Contact</a>
-          </li>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-          <li class="nav-item dropdown">
-            <a class="nav-link" href="Resume/Houssam AL-momani.pdf" download="Resume">
-              <span class="fas fa-file"></span> download Resume
-            </a>
-          </li>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto" id="navbrMyitems">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home"
+                  ><span class="fas fa-home"></span> Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about"
+                  ><span class="fas fa-address-card"></span> About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects"
+                  ><span class="fas fa-envelope"></span> Projects</a
+                >
+              </li>
 
+              <li class="nav-item">
+                <a class="nav-link" href="#contact"
+                  ><span class="fas fa-envelope"></span> Contact</a
+                >
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="Resume/Houssam AL-momani.pdf"
+                  download="Resume">
+                  <span class="fas fa-file"></span> download Resume
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section class="container-fluid white-container">
+      <div>
+        <ul>
+          <li>BirthDay: 28/12/1994</li>
+          <li>Nationality: Jordanian</li>
+          <li>Marital status: Single</li>
         </ul>
       </div>
-    </div>
-  </nav>
+    </section>
 
-  <div class="main-img">
-    <p class="img-text">
-      IT graduate major in computer information systems seeking for an environment to sharpen my knowledge in , super motivated with a background in javascript , HTML , CSS , Node.js , Kotlin , React Native.<br>
-      Highly analytical , skilled at solving programming problems. Can work well both independently and in a team.
-    </p>
-    <img  src="images/houssamblue3.jpg" alt="personal image with blue background" width=100%>
-  </div>
-
-
-  <section class=" white-container-1">
-    <ul id=unlist class="inB">
-      <li>
-        <strong>Birthday:</strong> <span>28th December 1994</span>
-      </li>
-      <li>
-        <strong>Nationality:</strong> <span>Jordanian</span>
-      </li>
-      <li>
-        <strong>Marital status:</strong> <span>Single</span>
-      </li>
-    </ul>
-    <img class="personal-image" src="images/pr2.png" alt="personal pic" width="30%">
-  </section>
-
-  <section class="gray-container-1">
+    <!-- <section class="gray-container-1">
     <h2 class="half-blue"><span>P</span>rofile</h2>
-  </section>
+   </section> -->
 
-  <div class="container-fluid white-container-2">
-    <p>
-      IT graduate major in computer information systems seeking for an environment to sharpen my knowledge in , super motivated with a background in javascript , HTML , CSS , Node.js , Kotlin , React Native.
-      Highly analytical , skilled at solving programming problems. Can work well both independently and in a team.
-    </p>
-  </div>
+    <section id="about" class="container-xxl">
+      <div class="about-container">
+        <h1>About Me</h1>
 
-  <!-- form -->
-  <div class="container-fluid gray-container-2">
-    <form action="mailto:houssamalmomani1@mail.com" method="post" enctype="text/plain">
+        <p>
+          IT graduate major in computer information systems seeking for an
+          environment to sharpen my knowledge in , super motivated with a
+          background in javascript , HTML , CSS , Node.js , Kotlin , React
+          Native. Highly analytical , skilled at solving programming problems.
+          Can work well both independently and in a team.
+        </p>
+      </div>
+    </section>
 
-      <label> Your name :</label><br>
-      <input type="text" name="" value="" class="form-input">
+    <section class="container-fluid white-container">
+      <div class="row">
+        <div class="skills-box col-lg-4 col-md-6 col-sm-12">
+          <i class="icon fab fa-react fa-4x"></i>
+          <h3>React</h3>
+          <p>
+            a good background in react Components / Hooks / Redux / Context.
+          </p>
+        </div>
 
-      <br>
+        <div class="skills-box col-lg-4 col-md-6 col-sm-12">
+          <i class="icon fab fa-html5 fa-4x"></i>
+          <h3>HTML</h3>
+          <p>
+            a good background in react Components / Hooks / Redux / Context.
+          </p>
+        </div>
 
-      <label> Your Email:</label><br>
-      <input type="email" name="" value="" class="form-input">
+        <div class="skills-box col-lg-4 col-md-6 col-sm-12">
+          <i class="icon fab fa-css3 fa-4x"></i>
+          <h3>CSS</h3>
+          <p>a good background in react Components/ Hooks/ Redux / Context.</p>
+        </div>
 
-      <br>
+        <div class="skills-box col-lg-4 col-md-6 col-sm-12">
+          <i class="icon fab fa-js fa-4x"></i>
+          <h3>Javascript</h3>
+          <p>a good background in react Components/ Hooks / Redux / Context.</p>
+        </div>
 
-      <label> Your Message:</label>
+        <div class="skills-box col-lg-4 col-md-6 col-sm-12">
+          <i class="icon fab fa-js fa-4x"></i>
+          <h3>Jquery</h3>
+          <p>
+            a good background in react Components / Hooks / Redux / Context.
+          </p>
+        </div>
 
-      <br>
+        <div class="skills-box col-lg-4 col-md-6 col-sm-12">
+          <i class="icon fab fa-android fa-4x"></i>
+          <h3>Kotlin</h3>
+          <p>
+            a good background in react Components / Hooks / Redux / Context.
+          </p>
+        </div>
 
-      <textarea name="name" rows="5" cols="40" class="form-input"></textarea>
+        <div class="skills-box col-lg-4 col-md-6 col-sm-12">
+          <i class="icon fab fa-node fa-4x"></i>
+          <h3>Node JS</h3>
+          <p>a good background in react Components / Hooks / Redux/ Context.</p>
+        </div>
 
-      <br>
+        <div class="skills-box col-lg-4 col-md-6 col-sm-12">
+          <i class="icon fab fa-github fa-4x"></i>
+          <h3>Git/Github</h3>
+          <p>
+            a good background in react Components / Hooks / Redux / Context.
+          </p>
+        </div>
+      </div>
+    </section>
 
-      <input type="submit" name="" class="form-input">
-    </form>
+    <section id="projects" class="container-xxl">
+      <div
+        id="carouselExampleDark"
+        class="projects-container carousel carousel-dark slide"
+        data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="30000">
+            <img src="images/notesApp.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Notes App</h5>
+              <p>using React.JS</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img
+              src="images/expensesApp.png"
+              class="d-inline-block w-50"
+              alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>expenses App</h5>
+              <p>using React native and fire base.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/quiz app.png"
+              class="d-inline-block w-50"
+              alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Quiz App</h5>
+              <p>using Kotlin.</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
 
-  </div>
+    <section class="container-fluid white-container">
+      <div class="row">
+        <div class="skills-box col-lg-4 col-md-6 col-sm-12">
+          <i class="icon fab fa-react fa-4x"></i>
+          <h3>React</h3>
+          <p>
+            a good background in react Components / Hooks / Redux / Context.
+          </p>
+        </div>
 
-  <div class="bottom-container">
+        <div class="skills-box col-lg-4 col-md-6 col-sm-12">
+          <i class="icon fab fa-html5 fa-4x"></i>
+          <h3>HTML</h3>
+          <p>
+            a good background in react Components / Hooks / Redux / Context.
+          </p>
+        </div>
 
-    <a class="footer-link" href="https://www.linkedin.com/in/houssam-almomani-5b6023206/">
-      <i class="fab fa-linkedin"></i>
-    </a>
-    <a class="footer-link" href="https://github.com/houssamalmomani">
-      <i class="fab fa-github"></i>
-    </a>
-    <a class="footer-link" href="mailto:houssamalmomani1@gmail.com">
-      <i class="fa-solid fa-envelope"></i>
-    </a>
+        <div class="skills-box col-lg-4 col-md-6 col-sm-12">
+          <i class="icon fab fa-css3 fa-4x"></i>
+          <h3>CSS</h3>
+          <p>a good background in react Components/ Hooks/ Redux / Context.</p>
+        </div>
 
+        <div class="skills-box col-lg-4 col-md-6 col-sm-12">
+          <i class="icon fab fa-js fa-4x"></i>
+          <h3>Javascript</h3>
+          <p>a good background in react Components/ Hooks / Redux / Context.</p>
+        </div>
 
-    <p>© 2022 Houssam AL-momani.</p>
+        <div class="skills-box col-lg-4 col-md-6 col-sm-12">
+          <i class="icon fab fa-js fa-4x"></i>
+          <h3>Jquery</h3>
+          <p>
+            a good background in react Components / Hooks / Redux / Context.
+          </p>
+        </div>
+      </div>
+    </section>
 
-  </div>
+    <section class="container-xxl" id="contact">
+      <!-- form -->
+      <div class="contact-container">
+        <!-- <img class="personal-image" src="images/pr2.png" alt="personal pic" width="60%"> -->
+        <h1>Feel Free To Contact Me</h1>
 
-</body>
+        <div>
+          <div class="map-container">
+            <div class="col-lg-12 col-md-10 col-sm-12">
+              <p class="ad-p">Address</p>
+              <div class="mapouter">
+                <div class="gmap_canvas">
+                  <iframe
+                    width="220
+                        "
+                    height="320"
+                    id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=amman%20al%20jubeiha&t=&z=11&ie=UTF8&iwloc=&output=embed">
+                  </iframe>
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-lg-7 col-md-9 col-sm-12">
+            <form
+              action="mailto:houssamalmomani1@gmail.com"
+              method="post"
+              enctype="text/plain">
+              <div class="form-group">
+                <label for="Email">Email address</label>
+                <input
+                  type="email"
+                  class="form-control form-control-lg"
+                  id="Email"
+                  name="Email"
+                  placeholder="name@example.com" />
+              </div>
+
+              <div class="form-group">
+                <label>Your Name</label>
+                <input
+                  type="text"
+                  class="form-control form-control-lg"
+                  name="Name"
+                  placeholder="Enter your full name  " />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Your message</label>
+                <textarea
+                  type="text"
+                  class="form-control form-control-lg"
+                  id="message"
+                  name="message"
+                  rows="6"></textarea>
+              </div>
+
+              <div class="from-group">
+                <button
+                  type="submit"
+                  name=""
+                  class="btn btn-primary form-input">
+                  submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="bottom-container">
+          <a class="footer-link" href="tel:+962799698998">
+            <i class="fa fa-phone"></i>
+          </a>
+
+          <a class="footer-link" href="mailto:almomani_94@outlook.com">
+            <i class="fa fa-envelope fa-lg"></i>
+          </a>
+
+          <a class="footer-link" href="https://github.com/houssamalmomani">
+            <i class="fab fa-github fa-lg"></i>
+          </a>
+
+          <a
+            class="footer-link"
+            href="https://www.linkedin.com/in/houssam-almomani-5b6023206/">
+            <i class="fab fa-linkedin fa-lg"></i>
+          </a>
+
+          <hr />
+
+          <p>© 2022 Houssam Al-momani.</p>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>

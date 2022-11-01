@@ -1,136 +1,178 @@
 /******************************TAG SELECTORS***********************************/
 body {
-  margin: 0;
-  font-family: 'Montserrat';
-}
 
-h1 {
   font-family: 'Montserrat';
-  font-size: 2.5vw;
-  font-weight: bolder;
-  text-decoration: underline;
-  color: #0154bd;
-  margin-bottom: 2rem;
 }
 
 /*****************************CLASS SELECTORS**********************************/
 /* Navigation bar */
+
+
+
 .navbar {
-  padding: 0;
+  background-color: rgba(0, 0, 0, 0.164);
+
+
+
 }
 
-.navbar-brand p {
-  font-family: 'Blinker';
-  font-weight: 400;
-  font-size: 2vw;
-  margin-bottom: 5px;
+
+
+.half-blue {
+
+  font-size: 3.0vw;
+  margin-bottom: 7px;
+
+  font-weight: bold;
+
 }
 
 .navbar-brand span {
-  color: #0154bd;
+  color: #034a80;
+
 }
 
 .navbar a {
-  text-shadow: 1px 1px 2px black, 0 0 25px gray, 0 0 5px rgb(0, 0, 56);
+  text-shadow: 1px 1px 2px black, 0 0 5px gray, 0 0 5px rgb(0, 0, 0);
   font-family: 'Blinker';
-  font-weight: 300;
-  font-size: 15px;
+  font-weight: 400;
+  font-size: 100%;
+
+
 }
 
-.main-img{
-  position: relative;
-}
-.img-text{
+.img-text {
   position: absolute;
-  color: white;
-  text-shadow: 1px 1px 2px black, 0 0 25px gray, 0 0 5px rgb(0, 0, 56);
-  bottom: 20px;
+  color: rgba(255, 255, 255, 0.575);
+  text-shadow: 1px 1px 2px black, 0 0 10px gray, 0 0 10px rgb(0, 0, 56);
   text-align: center;
-  font-size: 1vw;
-  padding: 10px;
+  margin-top: auto;
+
 }
-.personal-image {
+
+/* .personal-image {
   margin-left: 20%;
-  position: absolute;
   bottom: 100;
   border-radius: 50%;
   border: 7px solid #fff;
+} */
+
+
+
+
+.white-container {
+
+  line-height: 3;
+  padding: 7% 15%;
+  background-color: #FFF;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
 }
 
-.gray-container-1 {
-  color: #FFF;
+.icon {
+  color: #034a80;
+  margin-bottom: 1rem;
+}
+
+
+.skills-box {
   text-align: center;
-  padding: 5% 15%;
-  background-color: #808080;
-  font-family: 'Blinker';
-  /* #212529 */
-  /* #022466 */
-  /* #063274 */
+  margin: auto;
+  padding: 6%;
 }
 
-.half-blue {
-  font-family: 'Blinker';
-  font-weight: 400;
-  font-size: 25px;
+.skills-box p {
+  color: #8f8f8f;
 }
 
-.half-blue span {
-  color: #0154bd;
-}
-
-.white-container-1 {
+.projects-container {
   line-height: 3;
-  padding: 7% 15%;
-  background-color: #212529;
-  color: #FFF;
-}
-
-.white-container-2 {
-  line-height: 3;
-  padding: 7% 15%;
-}
-
-.gray-container-2 {
-  line-height: 3;
-  padding: 7% 15%;
-  background-color: #212529;
-  color: #FFF;
-}
-
-.inB {
-  display: inline-block;
-}
-
-.bottom-container {
-  color: #FFF;
+  padding: 15%;
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #808080;
-  font-size: 15px;
+  background-image: linear-gradient(#0C2D48, #034a80dc);
+  box-shadow: 1px 1px 1px black, 0 0 10px #034a80dc, 0 0 10px #0C2D48;
+  color: #FFF;
+  justify-content: space-around;
+  margin: auto;
+  border-radius: 15px 50px;
+}
+
+.about-container {
+  line-height: 3;
+  padding: 8%;
+
+  background-image: linear-gradient(#0C2D48, #034a80dc);
+  box-shadow: 1px 1px 1px black, 0 0 10px #034a80dc, 0 0 10px #0C2D48;
+  color: #FFF;
+  justify-content: space-around;
+  margin: auto;
+  border-radius: 15px 50px;
+}
+
+.contact-container {
+  line-height: 3;
+  padding: 8%;
+
+  background-image: linear-gradient(#0C2D48, #034a80dc);
+  box-shadow: 1px 1px 1px black, 0 0 10px #034a80, 0 0 10px #0C2D48;
+  color: #FFF;
+  justify-content: space-around;
+  margin: auto;
+  border-radius: 15px 50px 0 0;
+}
+
+
+.ad-p {
+  margin: 0;
 }
 
 .bottom-container p {
-  padding-top: 3rem;
+  padding-top: 20px;
 }
 
 .form-input {
-  border-radius: 7px;
+  margin-top: 15px;
+}
+
+.map-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .footer-link {
   text-decoration: none;
-  font-size: 20px;
-  padding-left: 1rem;
+  font-size: 1.1rem;
+  padding-left: 15px;
+  padding-right: 15px;
   color: #FFF;
 }
 
 
-/**********************************ID SELECTORS********************************/
-#unlist {
-  font-size: 1.5vw;
+
+.bottom-container {
+  color: #FFF;
+  text-align: center;
+
+
+  padding-top: 20px;
+  padding-bottom: 1px;
+
+  margin-top: 150px;
+  border-radius: 15px 50px;
 }
 
-#nav-bar {
-  background-color: rgba(0, 0, 0, 0.5);
+.form-p {}
+
+
+
+hr {
+
+  width: 70%;
+  margin: auto;
 }
+
+h3 {
+  color: #034a80;
+}
+
